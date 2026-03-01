@@ -30,6 +30,51 @@ passenger-counter/
 
 ---
 
+## Cómo Empezar
+
+### 1. Haz un fork del repositorio
+
+Un **fork** crea una copia del repositorio en tu cuenta de GitHub. Así puedes hacer cambios sin afectar el original.
+
+1. Ve a la página del repositorio en GitHub.
+2. Haz clic en el botón **Fork** (arriba a la derecha).
+3. Selecciona tu cuenta como destino.
+
+GitHub creará una copia en `https://github.com/tu-usuario/counter-passengers`.
+
+### 2. Clona el fork a tu máquina
+
+Clonar descarga el repositorio a tu ordenador para poder trabajar con él en local.
+
+```bash
+git clone https://github.com/tu-usuario/counter-passengers.git
+```
+
+Accede a la carpeta del proyecto:
+
+```bash
+cd counter-passengers
+```
+
+### 3. Abre el proyecto en VS Code
+
+```bash
+code .
+```
+
+### 4. Lanza la app en el navegador
+
+Abre `index.html` con **Live Server** (clic derecho → _Open with Live Server_) o con la extensión **Five Server**. La app estará disponible en `http://127.0.0.1:5500`.
+
+> **¿Tienes cambios del repositorio original?** Puedes sincronizarlos con:
+>
+> ```bash
+> git remote add upstream https://github.com/usuario-original/counter-passengers.git
+> git pull upstream main
+> ```
+
+---
+
 ## Paso a Paso
 
 ### Paso 1: Punto de partida — HTML y CSS ya hechos
